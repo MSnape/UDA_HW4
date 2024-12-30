@@ -6,7 +6,7 @@ Is it possible to create a classifier which can differentiate well between paint
 and Picasso. If this is possible, can we gather any understanding of how this is being per-
 formed within the classifier and with this information are we able to mislead the classifier to misclassify a painting?
 
-The data used is a set of images of paintings (predominantly from Claude Monet and Pablo Picasso) from obtained https://www.wikiart.org/ (The zip file is available here, it was too large to put in this repository but is freely available and the images used are in the [presplit_data]{.\presplit_data} directory. 
+The data used is a set of images of paintings (predominantly from Claude Monet and Pablo Picasso) from obtained https://www.wikiart.org/ (The zip file is available here, it was too large to put in this repository but is freely available and the images used are in the [presplit_data](.\presplit_data) directory. 
 
 We begin by running exploratory data analysis on our data to gather information about the styles of painting s
 
