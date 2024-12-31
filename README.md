@@ -19,3 +19,5 @@ For the evasion attack, (which is also in [resnet50_model_setup](./code/resnet50
 python demo_prog.py --img_path ./test_images/pablo-picasso_woman-on-the-street-1901.jpg --canvas_color 'white' --max_m_strokes 4000 --max_divide 5 --renderer oilpaintbrush --renderer_checkpoint_dir checkpoints_G_oilpaintbrush --net_G zou-fusion-net    
 
 python demo_prog.py --img_path ./test_images/pablo-picasso_portrait-of-minguell.png --canvas_color 'white' --max_m_strokes 4000 --max_divide 5 --renderer oilpaintbrush --renderer_checkpoint_dir checkpoints_G_oilpaintbrush --net_G zou-fusion-net   
+
+The resultant files are [pablo-picasso_woman-on-the-street-1901-final.jpg](./presplit_data/test/pablo-picasso_woman-on-the-street-1901-final.jpg) and [pablo-picasso_portrait-of-minguell-final.png](./presplit_data/test/pablo-picasso_portrait-of-minguell-final.png). These can be found in  in [presplit_data/test](./presplit_data/test)
