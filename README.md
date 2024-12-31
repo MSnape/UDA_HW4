@@ -21,3 +21,5 @@ python demo_prog.py --img_path ./test_images/pablo-picasso_woman-on-the-street-1
 python demo_prog.py --img_path ./test_images/pablo-picasso_portrait-of-minguell.png --canvas_color 'white' --max_m_strokes 4000 --max_divide 5 --renderer oilpaintbrush --renderer_checkpoint_dir checkpoints_G_oilpaintbrush --net_G zou-fusion-net   
 
 The resultant files are [pablo-picasso_woman-on-the-street-1901_final.png](./presplit_data/test/pablo-picasso_woman-on-the-street-1901_final.png) and [pablo-picasso_portrait-of-minguell_final.png](./presplit_data/test/pablo-picasso_portrait-of-minguell_final.png). These can be found in  in [presplit_data/test](./presplit_data/test)
+
+Some preliminary work was done on looking at the common subjects of the paintings of both artists, this was performed in [finding_painting_content.ipynb](./code/finding_painting_content.ipynb). This provided some funny outputs with the 4 most common subjects of Monet's paintings as [('fountain', 370), ('jigsaw_puzzle', 266), ('lakeside', 177), ('castle', 165)].
