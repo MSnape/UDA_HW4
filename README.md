@@ -14,6 +14,8 @@ Using this data we first chose to use the CNN model given in our lectures as a b
 
 For our main ResNet50 model, the code implementation and testing is performed in [resnet50_model_setup](./code/resnet50_model_setup.ipynb)
 
+Images which were misclassified by this model are in [Misclassified Images](./Misclassified%20images)
+
 For the evasion attack, (which is also in [resnet50_model_setup](./code/resnet50_model_setup.ipynb)) to run the code from the Stylized Neural Painting code from https://github.com/jiupinjia/stylized-neural-painting , we ran the commands: 
 
 python demo_prog.py --img_path ./test_images/pablo-picasso_woman-on-the-street-1901.jpg --canvas_color 'white' --max_m_strokes 4000 --max_divide 5 --renderer oilpaintbrush --renderer_checkpoint_dir checkpoints_G_oilpaintbrush --net_G zou-fusion-net    
