@@ -20,7 +20,8 @@ Confusion Matrix
  [  7 145]]
 The Classification Report:
 
-![image](https://github.com/user-attachments/assets/029ed3ca-fa4b-4819-805b-f333e7aa840f)
+![image](https://github.com/user-attachments/assets/1446db6f-a307-4fb4-ba9e-d3ba70c22b97)
+
 Both showing very good results on the validation dataset. 
 
 Images which were misclassified by this model are in [Misclassified Images](./Misclassified%20images)
