@@ -10,7 +10,7 @@ The data used is a set of images of paintings (predominantly from Claude Monet a
 
 We begin by running exploratory data analysis on our data to gather information about the count of the number paintings from Monet & Picasso and the styles of their paintings. This is done in [presplit_data](./code/data_EDA.ipynb). Also in this notebook we split the data into a training dateset and validation dataset (80%/20%). This is performed randomly and placed in the [presplit_data](./presplit_data) directory. 
 
-Using this data we first chose to use the CNN model given in our lectures as a baseline, this is performed in [cnn_from_lecture](./code/cnn_from_lecture.ipynb)
+Using this data we first chose to use the CNN model given in our lectures as a baseline, this is performed in [cnn_from_lecture](./code/cnn_from_lecture.ipynb) .
 
 For our main ResNet50 model, the code implementation and testing is performed in [resnet50_model_setup](./code/resnet50_model_setup.ipynb). If this is going to be run please uncomment line :
 # model.save("monet_vs_picasso_ResNet50.keras")
