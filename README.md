@@ -27,3 +27,5 @@ The resultant files are [pablo-picasso_woman-on-the-street-1901_final.png](./pre
 Some preliminary work was done on looking at the common subjects of the paintings of both artists, this was performed in [finding_painting_content.ipynb](./code/finding_painting_content.ipynb). This provided some funny outputs with the 4 most common subjects of Monet's paintings as [('fountain', 370), ('jigsaw_puzzle', 266), ('lakeside', 177), ('castle', 165)].
 
 Images for the report are in [Images for Report](./Images%20for%20report)
+
+All code was run on a MacBook Air (OS Big Sur, version 11.1), with the Apple M1 chip and 16GB of memory. 
