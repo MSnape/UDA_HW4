@@ -18,7 +18,8 @@ Confusion Matrix
 [[258   7]
 
  [  7 145]]
- and Classification Report
+The Classification Report:
+
 ![image](https://github.com/user-attachments/assets/029ed3ca-fa4b-4819-805b-f333e7aa840f)
 Both showing very good results on the validation dataset. 
 
