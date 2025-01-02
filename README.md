@@ -12,7 +12,10 @@ We begin by running exploratory data analysis on our data to gather information 
 
 Using this data we first chose to use the CNN model given in our lectures as a baseline, this is performed in [cnn_from_lecture](./code/cnn_from_lecture.ipynb)
 
-For our main ResNet50 model, the code implementation and testing is performed in [resnet50_model_setup](./code/resnet50_model_setup.ipynb)
+For our main ResNet50 model, the code implementation and testing is performed in [resnet50_model_setup](./code/resnet50_model_setup.ipynb). If this is going to be run please uncomment line :
+# model.save("monet_vs_picasso_ResNet50.keras")
+So that the model created is saved locally which will then be used.
+
 The resultant Confusion Matrix was:
 ![image](https://github.com/user-attachments/assets/e8eddbe4-1270-4f6b-ac5a-589b133590de)
 
