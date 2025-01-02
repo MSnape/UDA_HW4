@@ -13,6 +13,13 @@ We begin by running exploratory data analysis on our data to gather information 
 Using this data we first chose to use the CNN model given in our lectures as a baseline, this is performed in [cnn_from_lecture](./code/cnn_from_lecture.ipynb)
 
 For our main ResNet50 model, the code implementation and testing is performed in [resnet50_model_setup](./code/resnet50_model_setup.ipynb)
+The resultant Confusion Matrix was:
+Confusion Matrix
+[[258   7]
+ [  7 145]]
+ and Classification Report
+![image](https://github.com/user-attachments/assets/029ed3ca-fa4b-4819-805b-f333e7aa840f)
+Both showing very good results on the validation dataset. 
 
 Images which were misclassified by this model are in [Misclassified Images](./Misclassified%20images)
 
