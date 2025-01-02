@@ -14,13 +14,11 @@ Using this data we first chose to use the CNN model given in our lectures as a b
 
 For our main ResNet50 model, the code implementation and testing is performed in [resnet50_model_setup](./code/resnet50_model_setup.ipynb)
 The resultant Confusion Matrix was:
-Confusion Matrix
 ![image](https://github.com/user-attachments/assets/e8eddbe4-1270-4f6b-ac5a-589b133590de)
 
+
 The Classification Report:
-
 ![image](https://github.com/user-attachments/assets/e2fc2f4a-069b-4944-993a-adb0e7e67003)
-
 
 Both showing very good results on the validation dataset. 
 
